@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    height: 100vh;
+    }
+
+    header {
+    height: 20vh;
+    border-bottom: solid 1px black;
+    }
+
+    #titulo a {
+    text-decoration: none;
+    color: black;
+    }
+
+    #ingreso {
+    padding-top: 15px;
+    }
+
+    main {
+    height: 70vh;       
+    }
+
+    main h2{
+    text-align: center;
+    }
+
+    footer {
+    height: 10vh;
+    }
+
+    footer a {
+    text-decoration: none;
+    color: black;
+    }
+
+    li {
+    list-style-type: none;
+    text-align: center;
+    }
+
+    li a {
+    text-decoration: none;
+    color: black;
+    }
+
+    .ingreso {
+    vertical-align: middle;
+    }
