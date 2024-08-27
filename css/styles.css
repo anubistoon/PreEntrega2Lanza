@@ -13,23 +13,23 @@ header {
 }
 
 header .titulo-animado {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   animation: agrandarTitulo 5s ease-out forwards;
 }
 
 @keyframes agrandarTitulo {
   0% {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
   }
   100% {
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 }
 header #titulo h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 header #titulo1 a {
@@ -65,11 +65,8 @@ main li {
   list-style-type: none;
   text-align: center;
   background-color: #f9b51d;
+  border-radius: 20px;
   transition: background-color 1s;
-}
-
-main li li:hover {
-  background-color: #00ab9b;
 }
 
 main li a {

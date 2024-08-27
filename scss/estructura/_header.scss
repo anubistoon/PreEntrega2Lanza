@@ -3,22 +3,22 @@ header {
 	border-bottom: solid 1px black;
 
 	.titulo-animado {
-		font-size: 50px;
+		font-size: 40px;
 		color: white;
 		animation: agrandarTitulo 5s ease-out forwards;
 	}
 	@keyframes agrandarTitulo {
 		0% {
-			font-size: 50px;
+			font-size: 40px;
 			color: white;
 		}
 		100% {
-			font-size: 50px;
+			font-size: 40px;
 			color: black;
 		}
 	}
 	#titulo h1 {
-		font-size: 50px;
+		font-size: 40px;
 	}
 	#titulo1 a {
     		text-decoration: none;

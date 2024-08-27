@@ -8,10 +8,8 @@ main {
     list-style-type: none;
     text-align: center;
     background-color: #f9b51d;
+    border-radius: 20px;
     transition: background-color 1s;
-        li:hover {
-        background-color: #00ab9b;
-        }
         a {
         text-decoration: none;
         color: black;
