@@ -53,6 +53,12 @@ main {
 main h2 {
   text-align: center;
 }
+main .dropdown {
+  padding: 5px;
+}
+main .dropdown li a {
+  background-color: white;
+}
 main li {
   list-style-type: none;
   text-align: center;

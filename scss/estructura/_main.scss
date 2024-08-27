@@ -4,6 +4,12 @@ main {
     h2{
     text-align: center;
     }
+    .dropdown {
+        padding: 5px;
+        li a {
+            background-color: white;
+            }
+    }
     li {
     list-style-type: none;
     text-align: center;
