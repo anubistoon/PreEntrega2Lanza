@@ -1,14 +1,26 @@
 main {
-    height: 70vh;       
-h2{
+    height: 70vh; 
+    background-image: linear-gradient(to top, white, white, white, #00ab9b);      
+    h2{
     text-align: center;
     }
     li {
     list-style-type: none;
     text-align: center;
-    a {
-    text-decoration: none;
-    color: black;
+    background-color: #f9b51d;
+    transition: background-color 1s;
+        li:hover {
+        background-color: #00ab9b;
+        }
+        a {
+        text-decoration: none;
+        color: black;
+        transition: color 1s;
+        }
+        a:hover {
+            color: white;
+            font-weight: bold;
+            font-size: medium;
         }
     }
 }
